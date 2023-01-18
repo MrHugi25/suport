@@ -1,0 +1,451 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;   
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-color: #FAFBFF;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+
+    color: #080D4D;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    
+    color: #1E2353;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+p { 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #6F7285;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px; 
+    
+    display: inline-block;
+
+
+    color: #FFFFFF;
+    
+    
+    padding: 10px 30px;
+
+    background: #236EFF;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    
+    transition: 0.2s ease-in;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+/* ------------header-nav----------- */
+
+.header-nav {
+    border-bottom: 1px solid #EFF1FC;
+}
+
+
+.header-nav__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    
+    color: #080D4D;
+}
+
+.header-nav__iems-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+
+    fill: #DEE2F4;
+
+    transition: 0.2s ease-in;
+}
+
+.nav-icon:hover {
+    fill: #B0B4DC;
+}
+
+.phone-number {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 20px;
+    
+    color: #000000;
+}
+
+
+/* -----header---------- */
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 55px;
+}
+.header-left-block {
+    margin-right: 77px;
+    
+}
+
+.header-title {
+    max-width: 467px;
+    padding-top: 78px;
+    margin-bottom: 20px;
+}
+
+.header-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 90px;
+    
+    color: #000000;
+}
+
+.input-title {
+    max-width: 335px;
+}
+
+.input-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 4px;
+    margin: 20px 0;
+    
+    width: 443px;
+    height: 48px;
+    
+    background: #EFF1FC;;
+    border-radius: 5px;
+}
+
+.input-phone-header {
+    margin-left: 18px;
+    background: #EFF1FC;
+    border: none;
+    
+}
+
+.input-phone-header::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    
+    max-width: 188px;
+    color: #63657E;
+
+}
+
+.input-phone-header:focus {
+    outline: none;
+    color: #000000;
+}
+
+.info-tex {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 10px;
+    
+    color: #6F7285;
+}
+
+.politics-link {
+    text-decoration: underline;
+    color: #236EFF;
+}
+
+
+/* ---------advantages-блок преймущества--------- */
+
+.advantages-block {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    max-width: 1200px;
+    height: 100px;
+
+    padding: 0 52px;    
+    margin: 0 auto;
+    
+    background: #FFFFFF;
+    border: 1px solid #EFF1FC;
+    box-shadow: 0px 4px 25px rgba(30, 35, 83, 0.05);
+    border-radius: 5px;
+
+}
+
+.advantages-block__item {
+    display: flex;
+    align-items: center;
+    width: 259px;
+}
+
+.adv-block__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 60px;
+    height: 60px;
+
+    margin-right: 20px;
+
+}
+.adv-block__text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+    color: #1E2353;
+}
+
+/* ---------priority-блок приоритет--------- */
+.priority-block-wrap {
+    display: flex;
+    align-items: center;
+
+    padding: 45px 0;
+}
+
+.pr-block-img {
+    margin-right: 98px;
+}
+
+
+.pr-block-title {
+    margin-bottom: 40px;
+}
+
+.pr-block-subtitle {
+    margin-bottom: 30px;    
+}
+
+.pr-block-text {
+    margin-bottom: 36px;
+    max-width: 580px;  
+}
+
+/* ---------price-блок стоимость--------- */
+
+.price-block {
+    width: 850px;
+    height: 310px;    
+    
+    background: #FFFFFF;
+    border: 1px solid #EFF1FC;
+    box-shadow: 0px 4px 25px rgba(30, 35, 83, 0.05);
+    border-radius: 5px;
+    margin: 0 auto;    
+    text-align: center;
+
+}
+.price-block-title {
+    margin-top: 57px;
+    margin-bottom: 40px;
+}
+
+.price-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.price-wrap-block {
+    width: 350px;
+    padding: 0 14px;
+}
+
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-text,.price-dots,.price-price {
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.price-dots {    
+    letter-spacing: 0.2em;    
+}
+
+.price-price {
+    font-weight: 700;
+}
+
+
+/* ---------team-блок команда--------- */
+
+.team-block-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.tm-block-left {
+    max-width: 443px;
+    margin-right: 23px;
+}
+
+.tm-block-title {
+    line-height: 50px;
+    margin-bottom: 60px;
+}
+
+/* ---------stages-блок этапы--------- */
+
+.stages-block {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.stage-block-title {
+    margin-bottom: 60px;
+}
+
+.stages-block-row {
+    display: flex;
+    justify-content: center;
+}
+
+.stage-block-item {
+    display: flex;
+    align-items: center;
+    
+    width: 370px;
+    height: 70px;
+
+    margin: 15px;
+
+    text-align: left;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(30, 35, 83, 0.05);
+    border-radius: 5px;
+}
+
+
+.stage-block-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 20px;
+    margin-right: 30px;
+
+    width: 50px;
+    height: 50px;
+}
+
+.stage-block-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    
+
+
+    color: #000000;
+}
+
+/* ---------launch-блок стартап--------- */
+
+.launch-block {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.launch-block-title {
+    margin-bottom: 56px;
+}
+.launch-block-wrap {
+    display: flex;
+    justify-content: center;
+    
+    text-align: left;
+    margin: 0 auto;
+}
+
+.launch-block-image {
+    margin-right: 30px;
+}
+
+.launch-block-right {
+    max-width: 480px;
+    margin-left: 20px;
+}
+.launch-block-subtitle {
+    margin-bottom: 10px;
+}
+.launch-block-text {
+    margin-bottom: 34px;
+}
+
+.launch-block-text:last-child {
+    margin-bottom: 60px;
+}
